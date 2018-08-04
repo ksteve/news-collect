@@ -1,4 +1,5 @@
 /node_modules
+/.vscode
 app.yaml
 package-lock.json
 config.json
