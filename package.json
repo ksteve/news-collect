@@ -1,0 +1,19 @@
+{
+  "name": "newscluster",
+  "version": "1.0.0",
+  "description": "collect news and data from multiple sources",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "dynasty": "^0.3.9",
+    "express": "^4.16.3",
+    "newsapi": "^2.2.2",
+    "watson-developer-cloud": "^3.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Kyle Stevenson",
+  "license": "ISC"
+}

@@ -1,0 +1,5 @@
+cron:
+- description: "get daily news"
+  url: "/run"
+  schedule: "every day 18:00"
+  timezone: America/Toronto
