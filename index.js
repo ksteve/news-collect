@@ -2,12 +2,12 @@ const util = require('util');
 const config = require("./config.json");
 const express = require("express");
 const NewsApi = require("newsapi");
-const newsapi = new NewsApi("1f62f144d9584aaeb3fb553f42c989a6");
+const newsapi = new NewsApi("news_key");
 //require('dotenv').config()
 
 var credentials = {
-    accessKeyId: 'AKIAJUPXPQVEA4NX5BKQ',//process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: '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',//process.env.AWS_SECRET_ACCESS_KEY,
+    accessKeyId: 'access_key',//process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: 'secret',//process.env.AWS_SECRET_ACCESS_KEY,
     region: 'us-west-2'
 }
 const dynasty = require('dynasty')(credentials);
